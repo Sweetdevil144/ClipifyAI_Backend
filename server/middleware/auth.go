@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"CA_Backend/config"
+	"ClipifyAI/config"
 
 	"github.com/gofiber/fiber/v2"
 	jwtware "github.com/gofiber/jwt/v2"
