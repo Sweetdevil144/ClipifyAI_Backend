@@ -3,9 +3,9 @@ package utils
 import (
 	"ClipifyAI/config"
 	"fmt"
-	"time"
-	"log"
 	"github.com/golang-jwt/jwt/v5"
+	"log"
+	"time"
 )
 
 var serialKey = []byte(config.Config("JWT_SECRET"))

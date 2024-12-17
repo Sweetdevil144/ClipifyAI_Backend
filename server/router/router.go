@@ -1,10 +1,10 @@
 package router
 
 import (
+	handler "ClipifyAI/handler"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-	handler "ClipifyAI/handler"
 )
 
 func Route(app *fiber.App) {
